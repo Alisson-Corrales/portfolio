@@ -1,0 +1,43 @@
+/*colors*/
+$black: #3a3a3a;
+$white: #e7e7e7;
+$lightgrey: #9B9B9B;
+
+//basic styling
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+//reference for flickering words
+// https://gosnippets.com/snippets/css-text-flicker-animation-snippets-example
+
+//reference for website cards
+// https://codepen.io/creativemanner/pen/NWrNWrd
+
+//reference for skills cards
+// https://www.bootdey.com/snippets/view/bs4-card-widget
+
+html{
+    background-color: $black;
+}
+
+.nav{
+    ul{
+        li{
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            a{
+                margin-left: 100px;
+            }
+        }
+    }
+}
+
+.landerImage{
+    background-color: rgba(29, 29, 29, 0.933);
+}
